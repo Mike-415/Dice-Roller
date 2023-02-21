@@ -20,23 +20,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.diceroller.ui.theme.DiceRollerTheme
 
-
-private val TAG = "TAG_MAIN_ACTIVITY"
-private var diceImageMap : Map<Int, Int>? = null
-
+private val TAG = "TAG"
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        diceImageMap = mapOf(
-            1 to R.drawable.dice_1,
-            2 to R.drawable.dice_2,
-            3 to R.drawable.dice_3,
-            4 to R.drawable.dice_4,
-            5 to R.drawable.dice_5,
-            6 to R.drawable.dice_6
-        )
-
         setContent {
             DiceRollerTheme {
                 DiceRollerApp()
