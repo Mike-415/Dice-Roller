@@ -1,7 +1,7 @@
 # Dice-Roller
 An interactive Android app called Dice Roller that lets users roll a dice and shows them the result of the roll.
 
-![Imgur Image](https://imgur.com/v7OrCgh)
+[Imgur](https://i.imgur.com/v7OrCgh.png)
 
 # What I learned
 
